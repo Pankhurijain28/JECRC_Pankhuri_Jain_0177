@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\91637\\dotnet training\\EmployeemanagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8D8CE298-4CB3-4DD3-BFF1-2C3EFE56C030}|EmployeemanagementSystem\\EmployeemanagementSystem.csproj|c:\\users\\91637\\dotnet training\\employeemanagementsystem\\employeemanagementsystem\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D8CE298-4CB3-4DD3-BFF1-2C3EFE56C030}|EmployeemanagementSystem\\EmployeemanagementSystem.csproj|solutionrelative:employeemanagementsystem\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D8CE298-4CB3-4DD3-BFF1-2C3EFE56C030}|EmployeemanagementSystem\\EmployeemanagementSystem.csproj|c:\\users\\91637\\dotnet training\\employeemanagementsystem\\employeemanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D8CE298-4CB3-4DD3-BFF1-2C3EFE56C030}|EmployeemanagementSystem\\EmployeemanagementSystem.csproj|solutionrelative:employeemanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D8CE298-4CB3-4DD3-BFF1-2C3EFE56C030}|EmployeemanagementSystem\\EmployeemanagementSystem.csproj|c:\\users\\91637\\dotnet training\\employeemanagementsystem\\employeemanagementsystem\\employeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D8CE298-4CB3-4DD3-BFF1-2C3EFE56C030}|EmployeemanagementSystem\\EmployeemanagementSystem.csproj|solutionrelative:employeemanagementsystem\\employeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\91637\\dotnet training\\EmployeemanagementSystem\\EmployeemanagementSystem\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "EmployeemanagementSystem\\EmployeeService.cs",
+              "ToolTip": "C:\\Users\\91637\\dotnet training\\EmployeemanagementSystem\\EmployeemanagementSystem\\EmployeeService.cs*",
+              "RelativeToolTip": "EmployeemanagementSystem\\EmployeeService.cs*",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAuwJcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T06:01:30.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeModel.cs",
+              "DocumentMoniker": "C:\\Users\\91637\\dotnet training\\EmployeemanagementSystem\\EmployeemanagementSystem\\EmployeeModel.cs",
+              "RelativeDocumentMoniker": "EmployeemanagementSystem\\EmployeeModel.cs",
+              "ToolTip": "C:\\Users\\91637\\dotnet training\\EmployeemanagementSystem\\EmployeemanagementSystem\\EmployeeModel.cs",
+              "RelativeToolTip": "EmployeemanagementSystem\\EmployeeModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T06:01:05.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\91637\\dotnet training\\EmployeemanagementSystem\\EmployeemanagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "EmployeemanagementSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\91637\\dotnet training\\EmployeemanagementSystem\\EmployeemanagementSystem\\Program.cs",
+              "RelativeToolTip": "EmployeemanagementSystem\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T05:39:29.39Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+<!--using global variable and accessing-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Using Variable</title>
+    </head>
+    <body>
+        <h1>Using Variables</h1>
+        <p id="outputgreeting"></p>
+        <script>
+            var greeting = "Welcome to JavaScript!";
+            console.log(greeting);
+            let name = "Shanu";
+            console.log("welcome, " + name + " ! ");
+            document.getElementById("outputgreeting").innerHTML = greeting + " " + name;
+
+            let company = "CAPEGEMINI";
+            let companylocation = "Mumbai";
+            const year= "2026";
+            if (true){
+                let company = "TCS";
+                let companylocation = "DELHI";
+                const year= "2027";
+                console.log("Inside block:" + company + ", " + companylocation+ " ," + year);
+            }
+            console.log("Outside block:" + company + ", " + companylocation + " ," + year );
+            // document.body.innerHTML += "<p>Outside block: " + company + ", " + companylocation + ", " + year + "</p>";
+        </script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>Using Variables</title>
+</head>
+<body>
+
+    <h1 id="heading"></h1>
+
+    <script>
+        let title = "Using variables";
+        document.getElementById("heading").innerText = title;
+    </script>
+
+</body>
+</html> -->

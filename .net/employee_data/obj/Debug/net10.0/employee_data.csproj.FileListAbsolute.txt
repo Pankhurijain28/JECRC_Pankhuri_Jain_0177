@@ -1,0 +1,14 @@
+C:\Users\91637\.net\employee_data\bin\Debug\net10.0\employee_data.exe
+C:\Users\91637\.net\employee_data\bin\Debug\net10.0\employee_data.deps.json
+C:\Users\91637\.net\employee_data\bin\Debug\net10.0\employee_data.runtimeconfig.json
+C:\Users\91637\.net\employee_data\bin\Debug\net10.0\employee_data.dll
+C:\Users\91637\.net\employee_data\bin\Debug\net10.0\employee_data.pdb
+C:\Users\91637\.net\employee_data\obj\Debug\net10.0\employee_data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\91637\.net\employee_data\obj\Debug\net10.0\employee_data.AssemblyInfoInputs.cache
+C:\Users\91637\.net\employee_data\obj\Debug\net10.0\employee_data.AssemblyInfo.cs
+C:\Users\91637\.net\employee_data\obj\Debug\net10.0\employee_data.csproj.CoreCompileInputs.cache
+C:\Users\91637\.net\employee_data\obj\Debug\net10.0\employee_data.dll
+C:\Users\91637\.net\employee_data\obj\Debug\net10.0\refint\employee_data.dll
+C:\Users\91637\.net\employee_data\obj\Debug\net10.0\employee_data.pdb
+C:\Users\91637\.net\employee_data\obj\Debug\net10.0\employee_data.genruntimeconfig.cache
+C:\Users\91637\.net\employee_data\obj\Debug\net10.0\ref\employee_data.dll

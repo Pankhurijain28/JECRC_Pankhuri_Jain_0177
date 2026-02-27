@@ -1,0 +1,109 @@
+
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+   <meta charset="UTF-8"> 
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+   <title>JavaScript var Example</title> 
+</head> 
+<body> 
+   <h1>JavaScript Variable Redeclaration with <code>var</code></h1> 
+   <p>Open the browser console (F12) to see the output from <code>console.log()</code>.</p> 
+   <p>Result displayed on page: <span id="output"></span></p> 
+ 
+   <!-- <script> 
+       // Your code 
+       var name = "Alice";  
+       var name = "Bob"; // No error  
+       console.log(name); // Bob 
+ 
+       // Also display on the page 
+       document.getElementById("output").textContent = name; 
+   
+       console.log("\n===== FUNCTION SCOPE ====="); 
+
+       function testVar() { 
+        var name = "Charlie"; // This is a different variable, scoped to the function 
+        console.log(name); // Charlie 
+    }
+    testVar();
+     console.log(name); // Still Bob, because the function's 'name' variable does not affect the outer 'name' variable
+    
+       console.log("\n===== Primitive data types ====="); 
+    let name2 = "David";
+    let age = 30;
+    let isStudent = false;
+    let salary;
+    let bonus = null;
+    let bigNumber = 9007199254740991n; // BigInt
+    console.log(typeof name2); // string
+    console.log(typeof age); // number
+    console.log(typeof isStudent); // boolean
+    console.log(typeof salary); // undefined
+    console.log(typeof bonus); // object (null is of type "object" in JavaScript)
+    console.log(typeof bigNumber); // bigint
+   console.log("\n===== Non-Primitive data types ====="); 
+    let person = { name: "Eve", age: 25 }; // Object
+    let numbers = [1, 2, 3, 4, 5]; // Array
+    let today = new Date(); // Date object
+    function greet() { 
+        return "Welcome!"; 
+    } // Function
+    console.log(typeof greet); // function
+    console.log(typeof person); // object
+    console.log(typeof numbers); // object (arrays are a type of object in JavaScript)
+    console.log(typeof today); // object
+  </script>  -->
+
+  <script>
+    let result = "";
+
+    var name = "Alice";
+    var name = "Bob";
+    result += "Name after redeclaration: " + name + "<br>";
+
+    result += "<br>===== FUNCTION SCOPE =====<br>";
+
+    function testVar() {
+        var name = "Charlie";
+        result += "Inside function: " + name + "<br>";
+    }
+
+    testVar();
+    result += "Outside function: " + name + "<br>";
+
+    result += "<br>===== Primitive Data Types =====<br>";
+
+    let name2 = "David";
+    let age = 30;
+    let isStudent = false;
+    let salary;
+    let bonus = null;
+    let bigNumber = 9007199254740991n;
+
+    result += "Type of name2: " + typeof name2 + "<br>";
+    result += "Type of age: " + typeof age + "<br>";
+    result += "Type of isStudent: " + typeof isStudent + "<br>";
+    result += "Type of salary: " + typeof salary + "<br>";
+    result += "Type of bonus: " + typeof bonus + "<br>";
+    result += "Type of bigNumber: " + typeof bigNumber + "<br>";
+
+    result += "<br>===== Non-Primitive Data Types =====<br>";
+
+    let person = { name: "Eve", age: 25 };
+    let numbers = [1, 2, 3, 4, 5];
+    let today = new Date();
+    function greet() {
+        return "Welcome!";
+    }
+
+    result += "Type of greet: " + typeof greet + "<br>";
+    result += "Type of person: " + typeof person + "<br>";
+    result += "Type of numbers: " + typeof numbers + "<br>";
+    result += "Type of today: " + typeof today + "<br>";
+
+    // Display everything on webpage
+    document.getElementById("output").innerHTML = result;
+</script>
+</body> 
+</html>
