@@ -1,0 +1,15 @@
+C:\Users\91637\Capegemini Dotnet Training\D10_28-2-26\assesment_3\bin\Debug\net10.0\assesment_3.exe
+C:\Users\91637\Capegemini Dotnet Training\D10_28-2-26\assesment_3\bin\Debug\net10.0\assesment_3.deps.json
+C:\Users\91637\Capegemini Dotnet Training\D10_28-2-26\assesment_3\bin\Debug\net10.0\assesment_3.runtimeconfig.json
+C:\Users\91637\Capegemini Dotnet Training\D10_28-2-26\assesment_3\bin\Debug\net10.0\assesment_3.dll
+C:\Users\91637\Capegemini Dotnet Training\D10_28-2-26\assesment_3\bin\Debug\net10.0\assesment_3.pdb
+C:\Users\91637\Capegemini Dotnet Training\D10_28-2-26\assesment_3\obj\Debug\net10.0\assesment_3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\91637\Capegemini Dotnet Training\D10_28-2-26\assesment_3\obj\Debug\net10.0\assesment_3.AssemblyInfoInputs.cache
+C:\Users\91637\Capegemini Dotnet Training\D10_28-2-26\assesment_3\obj\Debug\net10.0\assesment_3.AssemblyInfo.cs
+C:\Users\91637\Capegemini Dotnet Training\D10_28-2-26\assesment_3\obj\Debug\net10.0\assesment_3.csproj.CoreCompileInputs.cache
+C:\Users\91637\Capegemini Dotnet Training\D10_28-2-26\assesment_3\obj\Debug\net10.0\assesment_3.sourcelink.json
+C:\Users\91637\Capegemini Dotnet Training\D10_28-2-26\assesment_3\obj\Debug\net10.0\assesment_3.dll
+C:\Users\91637\Capegemini Dotnet Training\D10_28-2-26\assesment_3\obj\Debug\net10.0\refint\assesment_3.dll
+C:\Users\91637\Capegemini Dotnet Training\D10_28-2-26\assesment_3\obj\Debug\net10.0\assesment_3.pdb
+C:\Users\91637\Capegemini Dotnet Training\D10_28-2-26\assesment_3\obj\Debug\net10.0\assesment_3.genruntimeconfig.cache
+C:\Users\91637\Capegemini Dotnet Training\D10_28-2-26\assesment_3\obj\Debug\net10.0\ref\assesment_3.dll
