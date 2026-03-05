@@ -1,0 +1,5 @@
+C:\Users\91637\Capegemini Dotnet Training\D11_05-03-26\obj\Debug\net10.0\D11_05-03-26.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\91637\Capegemini Dotnet Training\D11_05-03-26\obj\Debug\net10.0\D11_05-03-26.AssemblyInfoInputs.cache
+C:\Users\91637\Capegemini Dotnet Training\D11_05-03-26\obj\Debug\net10.0\D11_05-03-26.AssemblyInfo.cs
+C:\Users\91637\Capegemini Dotnet Training\D11_05-03-26\obj\Debug\net10.0\D11_05-03-26.csproj.CoreCompileInputs.cache
+C:\Users\91637\Capegemini Dotnet Training\D11_05-03-26\obj\Debug\net10.0\D11_05-03-26.sourcelink.json
