@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login Activity Tracker</title>
+</head>
+
+<body>
+
+<h2>User Login</h2>
+
+<input id="username" placeholder="Enter Username">
+<button onclick="login()">Login</button>
+
+<p id="msg"></p>
+
+<script>
+function login(){
+
+const user = document.getElementById("username").value;
+
+console.log("User Login Attempt:", user);
+
+document.getElementById("msg").innerText = "Login attempt recorded for " + user;
+
+fetch("https://example.com/log", {
+    method: "POST",
+    headers: {
+        "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+        level: "INFO",
+        message: "User Login Attempt",
+        username: user
+    })
+})
+.then(response => console.log("Log sent"))
+.catch(error => console.log("Server not available"));
+
+}
+</script>
+
+</body>
+</html>
+
+<!-- <input id="username" placeholder="Enter Username">
+<button onclick="login()">Login</button>
+
+<script>
+function login(){
+
+const user = document.getElementById("username").value;
+
+console.log("User Login Attempt:", user);
+
+fetch("https://example.com/log", {
+    method: "POST",
+    headers: {
+        "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+        level: "INFO",
+        message: "User Login Attempt",
+        username: user
+    })
+});
+
+}
+</script> -->
