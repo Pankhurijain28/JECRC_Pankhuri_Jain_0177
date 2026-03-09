@@ -1,0 +1,15 @@
+C:\Users\91637\Capegemini Dotnet Training\D13_07-03-26\Weekly assesment 7-3-26\bin\Debug\net10.0\Weekly assesment 7-3-26.exe
+C:\Users\91637\Capegemini Dotnet Training\D13_07-03-26\Weekly assesment 7-3-26\bin\Debug\net10.0\Weekly assesment 7-3-26.deps.json
+C:\Users\91637\Capegemini Dotnet Training\D13_07-03-26\Weekly assesment 7-3-26\bin\Debug\net10.0\Weekly assesment 7-3-26.runtimeconfig.json
+C:\Users\91637\Capegemini Dotnet Training\D13_07-03-26\Weekly assesment 7-3-26\bin\Debug\net10.0\Weekly assesment 7-3-26.dll
+C:\Users\91637\Capegemini Dotnet Training\D13_07-03-26\Weekly assesment 7-3-26\bin\Debug\net10.0\Weekly assesment 7-3-26.pdb
+C:\Users\91637\Capegemini Dotnet Training\D13_07-03-26\Weekly assesment 7-3-26\obj\Debug\net10.0\Weekly assesment 7-3-26.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\91637\Capegemini Dotnet Training\D13_07-03-26\Weekly assesment 7-3-26\obj\Debug\net10.0\Weekly assesment 7-3-26.AssemblyInfoInputs.cache
+C:\Users\91637\Capegemini Dotnet Training\D13_07-03-26\Weekly assesment 7-3-26\obj\Debug\net10.0\Weekly assesment 7-3-26.AssemblyInfo.cs
+C:\Users\91637\Capegemini Dotnet Training\D13_07-03-26\Weekly assesment 7-3-26\obj\Debug\net10.0\Weekly assesment 7-3-26.csproj.CoreCompileInputs.cache
+C:\Users\91637\Capegemini Dotnet Training\D13_07-03-26\Weekly assesment 7-3-26\obj\Debug\net10.0\Weekly assesment 7-3-26.sourcelink.json
+C:\Users\91637\Capegemini Dotnet Training\D13_07-03-26\Weekly assesment 7-3-26\obj\Debug\net10.0\Weekly assesment 7-3-26.dll
+C:\Users\91637\Capegemini Dotnet Training\D13_07-03-26\Weekly assesment 7-3-26\obj\Debug\net10.0\refint\Weekly assesment 7-3-26.dll
+C:\Users\91637\Capegemini Dotnet Training\D13_07-03-26\Weekly assesment 7-3-26\obj\Debug\net10.0\Weekly assesment 7-3-26.pdb
+C:\Users\91637\Capegemini Dotnet Training\D13_07-03-26\Weekly assesment 7-3-26\obj\Debug\net10.0\Weekly assesment 7-3-26.genruntimeconfig.cache
+C:\Users\91637\Capegemini Dotnet Training\D13_07-03-26\Weekly assesment 7-3-26\obj\Debug\net10.0\ref\Weekly assesment 7-3-26.dll

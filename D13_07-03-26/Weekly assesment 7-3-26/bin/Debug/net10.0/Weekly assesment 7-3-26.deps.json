@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Weekly assesment 7-3-26/1.0.0": {
+        "runtime": {
+          "Weekly assesment 7-3-26.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Weekly assesment 7-3-26/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
