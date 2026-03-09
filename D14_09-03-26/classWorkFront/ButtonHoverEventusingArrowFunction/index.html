@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Button Hover Event</title>
+
+<style>
+
+body{
+font-family: Arial;
+text-align:center;
+margin-top:100px;
+}
+
+button{
+padding:12px 20px;
+font-size:16px;
+background:#007bff;
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+background:#0056b3;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h2>Mouse Hover Event Example</h2>
+
+<button id="submitBtn">Submit</button>
+
+<script>
+
+/* Mouse Hover Event using Arrow Function */
+
+document.getElementById("submitBtn").addEventListener("mouseover", () => {
+
+console.log("Mouse hovered over submit button");
+
+});
+
+</script>
+
+</body>
+</html>

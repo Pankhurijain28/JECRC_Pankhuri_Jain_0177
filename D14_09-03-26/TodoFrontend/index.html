@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Todo App</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+<h1>📝 Todo List</h1>
+<p class="subtitle">Manage your daily tasks efficiently</p>
+</header>
+
+<!-- Task Input Section -->
+<div class="task-input">
+
+<select id="priority">
+<option value="Low">Low Priority</option>
+<option value="Medium">Medium Priority</option>
+<option value="High">High Priority</option>
+</select>
+
+<input 
+type="text" 
+id="taskInput" 
+placeholder="Enter a new task..."
+onkeypress="if(event.key==='Enter') addTask()"
+/>
+
+<button class="add-btn" onclick="addTask()">Add Task</button>
+
+</div>
+
+
+<!-- Controls Section -->
+<div class="controls">
+
+<div class="filters">
+
+<button onclick="filterTasks('all')">All</button>
+<button onclick="filterTasks('active')">Active</button>
+<button onclick="filterTasks('completed')">Completed</button>
+
+</div>
+
+<div class="actions">
+
+<button onclick="toggleDarkMode()">🌙 Dark Mode</button>
+
+<input 
+type="text" 
+id="searchInput" 
+placeholder="🔍 Search tasks..."
+onkeyup="loadTasks()"
+/>
+
+</div>
+
+</div>
+
+
+<!-- Task List -->
+<ul id="taskList"></ul>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
