@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JavaScript Modules</title>
+
+<style>
+body{
+font-family: Arial;
+padding:40px;
+}
+
+h2{
+margin-top:40px;
+}
+
+.container{
+display:flex;
+gap:40px;
+}
+
+.box{
+border:1px solid #ccc;
+padding:20px;
+width:300px;
+border-radius:8px;
+}
+
+.button{
+margin-top:10px;
+padding:6px 12px;
+}
+
+.result{
+margin-top:10px;
+font-weight:bold;
+color:blue;
+}
+</style>
+</head>
+<body>
+<h1> Using Modules in JavaScript</h1>
+
+<script>
+// before using modules project 1
+function formatDate(date) {
+    return `${date.getDate()}/${date.getMonth() + 1}/${date.getFullYear()}`;
+}
+
+function validateEmail(email) {
+    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+}
+
+function checkEmail1() {
+    const email = document.getElementById('email1').value;
+    const result = validateEmail(email) ? 'Valid Email' : 'Invalid Email';
+    document.getElementById('result1').textContent = result;
+}
+// before using modules project 2(duplicate code from project 1)
+function formatDate(date) {
+    return `${date.getDate()}/${date.getMonth() + 1}/${date.getFullYear()}`;
+}
+
+function validateEmail2(email) {
+    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+}
+
+function checkEmail2() {
+    const email = document.getElementById('email2').value;
+    const result = validateEmail2(email) ? 'Valid Email' : 'Invalid Email';
+    document.getElementById('result2').textContent = result;
+}
+
+//After using modules project 1(shared code in utils module)
+//Modules help avoid duplicate code.
+//Instead of repeating:
+//You create one module file:
+//like- (utils.js)
+// Example:
+// export function validateEmail(email){ ... }
+// export function formatDate(date){ ... }
+// Then import them:
+// import { validateEmail } from './utils.js';
+// Now both projects reuse the same code.
+
+
+const Utils={
+    formatDate(date) {
+        return `${date.getDate()}/${date.getMonth() + 1}/${date.getFullYear()}`;
+    },
+    validateEmail(email) {
+        return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+    }
+};
+document.getElementById('date3').innerText = Utils.formatDate(new Date());
+function checkEmail3() {
+    const email = document.getElementById('email3').value;
+    const result = Utils.validateEmail(email) ? 'Valid Email' : 'Invalid Email';
+    document.getElementById('result3').textContent = result;
+}
+document.getElementById('date4').innerText = Utils.formatDate(new Date());
+function checkEmail4() {
+    const email = document.getElementById('email4').value;
+    const result = Utils.validateEmail(email) ? 'Valid Email' : 'Invalid Email';
+    document.getElementById('result4').textContent = result;
+}
+</script>
+</body>
+</html>

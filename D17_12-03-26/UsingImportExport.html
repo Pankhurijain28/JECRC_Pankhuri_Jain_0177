@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JavaScript Modules</title>
+
+<style>
+body{
+font-family: Arial;
+padding:40px;
+}
+
+h2{
+margin-top:40px;
+}
+
+.container{
+display:flex;
+gap:40px;
+}
+
+.box{
+border:1px solid #ccc;
+padding:20px;
+width:300px;
+border-radius:8px;
+}
+
+.button{
+margin-top:10px;
+padding:6px 12px;
+}
+
+.result{
+margin-top:10px;
+font-weight:bold;
+color:blue;
+}
+</style>
+</head>
+<body>
+<h1> Using import/Export in JavaScript</h1>
+
+<script>
+//using import/export project 1(utils module) math.js
+const Utils = `
+    export const PI = 3.14159;
+    export function add(a, b) {
+        return a + b;
+    }
+    export function subtract(a, b) {
+        return a - b;
+    }
+    export function multiply(a, b) {
+        return a * b;
+    }
+    export function divide(a, b) {
+        if (b === 0) {
+            throw new Error("Cannot divide by zero");
+        }
+        return a / b;
+    }
+    `;
+const blob = new Blob([Utils], { type: 'application/javascript' });
+const url = URL.createObjectURL(blob);
+
+//dynamically import the module
+import(url).then(module => {
+    console.log('PI:', module.PI);
+    console.log('Add:', module.add(5, 3));
+    console.log('Subtract:', module.subtract(5, 3));
+    console.log('Multiply:', module.multiply(5, 3));
+    console.log('Divide:', module.divide(5, 3));
+}).catch(error => {
+    console.error('Error loading module:', error);
+});
+</script>
+</body>
+</html>
