@@ -1,0 +1,64 @@
+<div class="container">
+  <h2>Doctor Appointment System</h2>
+
+  <!-- Patient Name -->
+  <label>Patient Name:</label>
+  <input type="text" [(ngModel)]="patientName">
+
+  <!-- Doctor -->
+  <label>Doctor:</label>
+  <select [(ngModel)]="doctor">
+    <option value="">Select Doctor</option>
+    <option>Dr. Sharma</option>
+    <option>Dr. Mehta</option>
+    <option>Dr. Gupta</option>
+  </select>
+
+  <!-- Date -->
+  <label>Appointment Date:</label>
+  <input type="date" [(ngModel)]="date" [min]="today">
+
+  <!-- Consultation -->
+  <label>Consultation Type:</label>
+  <select [(ngModel)]="consultationType" (change)="updateFee()">
+    <option value="">Select</option>
+    <option>Online</option>
+    <option>Offline</option>
+  </select>
+
+  <!-- Symptoms -->
+  <label>Symptoms:</label>
+  <textarea [(ngModel)]="symptoms"></textarea>
+
+  <!-- Fee -->
+  <h3>Fee: ₹{{fee}}</h3>
+
+  <!-- Button -->
+  <button (click)="bookAppointment()">Book Appointment</button>
+
+  <!-- Summary -->
+  <div *ngIf="patientName">
+    <h3>Appointment Summary</h3>
+    <p><b>Name:</b> {{patientName}}</p>
+    <p><b>Doctor:</b> {{doctor}}</p>
+    <p><b>Date:</b> {{date}}</p>
+    <p><b>Type:</b> {{consultationType}}</p>
+    <p><b>Symptoms:</b> {{symptoms}}</p>
+  </div>
+
+  <!-- Message -->
+  <p class="message">{{message}}</p>
+  <div *ngIf="patientName">
+
+  <h3>Appointment Summary</h3>
+
+  <p>Patient Name: {{patientName}}</p>
+  <p>Doctor: {{doctor}}</p>
+  <p>Date: {{date}}</p>
+  <p>Consultation Type: {{consultationType}}</p>
+  <p>Symptoms: {{symptoms}}</p>
+  <p>Fee: ₹{{fee}}</p>
+
+</div>
+
+</div>

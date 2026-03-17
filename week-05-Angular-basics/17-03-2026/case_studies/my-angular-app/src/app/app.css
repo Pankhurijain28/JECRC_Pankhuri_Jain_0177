@@ -1,0 +1,18 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+nav a {
+  margin: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: blue;
+}
+
+nav a:hover {
+  color: darkblue;
+}
+
+h1 {
+  text-align: center;
+}
