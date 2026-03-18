@@ -1,0 +1,24 @@
+<h2> Product Order System</h2>
+
+<h3> {{ productName}}</h3>
+<p> Price: {{ price }}</p>
+<img [src]="imageUrl" width="200">
+<br><br>
+
+<button (click)=" increaseQuantity()"> + </button>
+<button (click)=" decreaseQuantity()"> - </button>
+<p> Quantity: {{ quantity }}</p>
+<br>
+<button [disabled] = "!isAvailable" (click)=" toggleAvailability()"> {{ isAvailable ? 'in stock' : 'Out of stock' }} </button>
+<br><br>
+
+<h3> Customer Details</h3>
+<input type="text" placeholder="Enter your name" [(ngModel)]="customerName">
+<br><br>
+<textarea placeholder="Enter your address" [(ngModel)]="customerAddress"></textarea>
+<br><br>
+
+<h3> Order Summary</h3>
+<p>Name: {{ customerName }}</p>
+<p>Address: {{ customerAddress }}</p>
+<p>Total Amount: {{ totalPrice }}</p>
