@@ -1,0 +1,25 @@
+<h2> Click Block Directive Demo</h2>
+
+<p>
+  Permission: 
+  <b [ngStyle]="{color: isAllowed ? 'green' : 'red'}">
+    {{ isAllowed ? 'Allowed' : 'Blocked' }}
+  </b>
+</p>
+
+<button (click)="togglePermission()">
+  Toggle Permission
+</button>
+
+<hr>
+
+<div class="card">
+
+  <button 
+    class="action-btn"
+    [appClickBlock]="isAllowed"
+    (click)="performAction()">
+    Perform Action
+  </button>
+
+</div>

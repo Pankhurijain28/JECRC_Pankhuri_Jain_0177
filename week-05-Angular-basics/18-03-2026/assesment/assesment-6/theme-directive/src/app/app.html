@@ -1,0 +1,16 @@
+<div [appTheme]="currentTheme" class="container">
+
+  <h2> Theme Directive Demo</h2>
+
+  <p>Current Theme: <b>{{ currentTheme }}</b></p>
+
+  <button (click)="toggleTheme()">
+    Switch Theme
+  </button>
+
+  <div class="card">
+    <h3>Sample Card</h3>
+    <p>This UI changes based on theme.</p>
+  </div>
+
+</div>

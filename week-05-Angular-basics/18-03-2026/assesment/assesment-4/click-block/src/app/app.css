@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  text-align: center;
+}
+
+h2 {
+  margin: 20px 0;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.action-btn {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+}
+
+.card {
+  margin-top: 20px;
+}

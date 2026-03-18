@@ -1,0 +1,21 @@
+<h2>Role Based Directive</h2>
+
+<p>Current Role: {{ userRole }}</p>
+
+<button (click)="changeRole('admin')">Admin</button>
+<button (click)="changeRole('user')">User</button>
+<button (click)="changeRole('manager')">Manager</button>
+
+<hr>
+
+<button *appRole="'admin'; appRoleUser: userRole">
+  Admin Panel
+</button>
+
+<button *appRole="'user'; appRoleUser: userRole">
+  User Dashboard
+</button>
+
+<button *appRole="['admin','manager']; appRoleUser: userRole">
+  Manager/Admin Settings
+</button>
