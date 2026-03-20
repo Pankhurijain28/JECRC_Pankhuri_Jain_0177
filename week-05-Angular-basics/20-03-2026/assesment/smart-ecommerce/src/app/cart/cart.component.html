@@ -1,0 +1,23 @@
+<div class="container">
+
+  <div class="item" *ngFor="let item of cartItems">
+
+    <h3>{{item.name}}</h3>
+
+    <div class="qty">
+      <button (click)="decrease(item)">-</button>
+      {{item.quantity}}
+      <button (click)="increase(item)">+</button>
+    </div>
+
+    <p>₹{{item.price * item.quantity}}</p>
+
+    <button (click)="remove(item.id)">Remove</button>
+
+  </div>
+
+  <h2>Total: ₹{{total}}</h2>
+
+  <button class="clear" (click)="clear()">Clear Cart</button>
+
+</div>

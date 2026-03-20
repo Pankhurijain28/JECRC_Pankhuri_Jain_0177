@@ -1,0 +1,42 @@
+<form #form="ngForm" (ngSubmit)="submitForm(form)">
+
+  <h3>Employee Feedback</h3>
+
+  <!-- Name -->
+  <label>Name:</label><br>
+  <input type="text" name="name" [(ngModel)]="feedback.name" required>
+  <br><br>
+
+  <!-- Email -->
+  <label>Email:</label><br>
+  <input type="email" name="email" [(ngModel)]="feedback.email" required>
+  <br><br>
+
+  <!-- Department -->
+  <label>Department:</label><br>
+  <select name="department" [(ngModel)]="feedback.department" required>
+    <option value="">Select</option>
+    <option *ngFor="let dept of departments" [value]="dept">
+      {{ dept }}
+    </option>
+  </select>
+  <br><br>
+
+  <!-- Skills -->
+  <label>Skills:</label><br>
+  <div *ngFor="let skill of allSkills">
+    <input type="checkbox"
+           (change)="updateSkills(skill, $event.target.checked)">
+    {{ skill }}
+  </div>
+  <br>
+
+  <!-- Comments -->
+  <label>Comments:</label><br>
+  <textarea name="comments" [(ngModel)]="feedback.comments"></textarea>
+  <br><br>
+
+  <!-- Submit -->
+  <button type="submit">Submit</button>
+
+</form>

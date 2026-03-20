@@ -1,0 +1,51 @@
+<div class="container">
+<form [formGroup]="form">
+
+<input placeholder="Full Name" formControlName="name">
+<input placeholder="Address" formControlName="address">
+
+<input type="email" placeholder="Email" formControlName="email">
+<input type="number" placeholder="Phone" formControlName="phone">
+<input type="number" placeholder="ZIP" formControlName="zip">
+
+<label><input type="radio" value="Male" formControlName="gender"> Male</label>
+<label><input type="radio" value="Female" formControlName="gender"> Female</label>
+
+<label><input type="radio" value="Standard" formControlName="delivery"> Standard</label>
+<label><input type="radio" value="Express" formControlName="delivery"> Express</label>
+
+<label><input type="checkbox" formControlName="terms"> Accept Terms</label>
+
+<select formControlName="city">
+  <option>Jaipur</option>
+  <option>Delhi</option>
+</select>
+
+<input type="date" formControlName="date">
+
+<textarea formControlName="instructions"></textarea>
+
+<input type="file">
+
+<label><input type="radio" value="card" formControlName="payment"> Card</label>
+<label><input type="radio" value="upi" formControlName="payment"> UPI</label>
+
+<div *ngIf="form.value.payment === 'card'">
+  <input placeholder="Card Number">
+  <input placeholder="CVV">
+</div>
+
+<div *ngIf="form.value.payment === 'upi'">
+  <input placeholder="UPI ID">
+</div>
+
+<button type="button" (click)="addAddress()">Add Address</button>
+
+<div *ngFor="let addr of addresses.controls; let i=index">
+  <input [formControlName]="i">
+</div>
+
+<button>Submit</button>
+
+</form>
+</div>
