@@ -1,0 +1,58 @@
+<div class="container">
+
+  <!-- HEADER -->
+  <div class="header">
+    <h2>Transaction History</h2>
+    <p>View and filter your recent account transactions</p>
+  </div>
+
+  <!-- ACCOUNT CARD -->
+  <div class="account-card">
+    <div>
+      <p class="label">ACCOUNT</p>
+      <h3>**** 4892</h3>
+    </div>
+    <div>
+      <p class="label">AVAILABLE BALANCE</p>
+      <h3>$12,150.00</h3>
+    </div>
+  </div>
+
+  <!-- FILTER -->
+  <div class="filter">
+    <label>Filter by Date</label>
+    <input type="date" [(ngModel)]="selectedDate">
+    <button class="btn" (click)="filterByDate()">Filter</button>
+    <button class="reset" (click)="reset()">Reset</button>
+  </div>
+
+  <!-- TABLE -->
+  <table>
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Description</th>
+        <th>Type</th>
+        <th (click)="sortByAmount()">Amount ($) ⬍</th>
+        <th>Balance</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr *ngFor="let t of filteredTransactions">
+        <td>{{ t.date | date:'yyyy-MM-dd' }}</td>
+        <td>{{ t.description }}</td>
+
+        <td>
+          <span [ngClass]="t.type === 0 ? 'credit' : 'debit'">
+            {{ t.type === 0 ? 'Credit' : 'Debit' }}
+          </span>
+        </td>
+
+        <td>{{ t.amount }}</td>
+        <td>{{ t.balance }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
