@@ -15,31 +15,40 @@ namespace HackerBankAPI.Controllers
             _context = context;
         }
 
-        // ✅ GET ALL TRANSACTIONS
         [HttpGet]
         public IActionResult GetTransactions()
         {
-            var data = _context.Transactions.ToList();
-            return Ok(data);
+            return Ok(_context.Transactions.ToList());
         }
 
-        // ✅ GET BY DATE (optional backend filtering)
-        [HttpGet("by-date")]
-        public IActionResult GetByDate([FromQuery] DateTime date)
-        {
-            var data = _context.Transactions
-                .Where(t => t.Date.Date == date.Date)
-                .ToList();
-
-            return Ok(data);
-        }
-
-        // ✅ ADD TRANSACTION (optional)
         [HttpPost]
-        public IActionResult AddTransaction(Transaction transaction)
+        public IActionResult AddTransaction([FromBody] Transaction transaction)
         {
+            if (transaction == null)
+                return BadRequest();
+
+            var lastTransaction = _context.Transactions
+                .OrderByDescending(t => t.Id)
+                .FirstOrDefault();
+
+            double lastBalance = 0;
+
+            if (lastTransaction != null)
+            {
+                lastBalance = Convert.ToDouble(
+                    lastTransaction.Balance.Replace("$", "").Replace(",", "")
+                );
+            }
+
+            double newBalance = transaction.Type == 0
+                ? lastBalance + transaction.Amount
+                : lastBalance - transaction.Amount;
+
+            transaction.Balance = "$" + newBalance.ToString("N2");
+
             _context.Transactions.Add(transaction);
             _context.SaveChanges();
+
             return Ok(transaction);
         }
     }

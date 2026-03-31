@@ -16,11 +16,15 @@ export interface Transaction {
 })
 export class TransactionService {
 
-  private apiUrl = 'http://localhost:5150/api/transactions'; 
+  private apiUrl = 'http://localhost:5150/api/transactions';
 
   constructor(private http: HttpClient) {}
 
   getTransactions(): Observable<Transaction[]> {
     return this.http.get<Transaction[]>(this.apiUrl);
+  }
+
+  addTransaction(transaction: Transaction) {
+    return this.http.post(this.apiUrl, transaction);
   }
 }
