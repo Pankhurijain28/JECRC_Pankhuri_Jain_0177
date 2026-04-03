@@ -1,9 +1,13 @@
 function Specs() {
   return (
     <div className="card">
-      <p>Processor: i7</p>
-      <p>RAM: 16GB</p>
-      <p>Storage: 512GB SSD</p>
+      <h3>Specifications</h3>
+      <ul>
+        <li>RAM: 16GB</li>
+        <li>Storage: 512GB SSD</li>
+        <li>Battery: 10 hours</li>
+        <li>Warranty: 1 year</li>
+      </ul>
     </div>
   );
 }

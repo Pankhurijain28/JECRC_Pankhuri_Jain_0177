@@ -1,15 +1,16 @@
-import { Outlet, Link } from "react-router-dom";
+import { Outlet, NavLink } from "react-router-dom";
 
 function DashboardLayout() {
   return (
-    <div>
-      <h2>Dashboard</h2>
+    <div className="dashboard-container">
 
-      <nav>
-        <Link to="/dashboard">Home</Link> | 
-        <Link to="/dashboard/analytics">Analytics</Link> | 
-        <Link to="/dashboard/settings">Settings</Link>
-      </nav>
+      <h2 className="dashboard-title">📊 Dashboard</h2>
+
+      <div className="dashboard-nav">
+        <NavLink to="/dashboard">Home</NavLink>
+        <NavLink to="/dashboard/analytics">Analytics</NavLink>
+        <NavLink to="/dashboard/settings">Settings</NavLink>
+      </div>
 
       <Outlet />
     </div>
