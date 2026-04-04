@@ -1,0 +1,55 @@
+.app {
+  display: flex;
+  height: 100vh;
+  background: #0f172a;
+  color: white;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 220px;
+  background: #1e293b;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.sidebar li:hover,
+.sidebar .active {
+  background: #334155;
+}
+
+/* MAIN */
+.main {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+/* SUMMARY */
+.summary {
+  background: #1e293b;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.generate-btn {
+  background: #22c55e;
+  color: white;
+  width: 100%;
+  margin-top: 10px;
+}

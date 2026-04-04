@@ -1,0 +1,40 @@
+<div class="invoice print-area">
+
+  <div class="header">
+    <h1>SmartBill Pro</h1>
+    <p>Invoice No: INV-{{invoiceNumber}}</p>
+    <p>Date: {{ today | date:'dd-MM-yyyy' }}</p>
+  </div>
+
+  <hr>
+
+  <table>
+    <tr>
+      <th>Item</th>
+      <th>Qty</th>
+      <th>Price</th>
+      <th>Total</th>
+    </tr>
+
+    <tr *ngFor="let item of items">
+      <td>{{item.name}}</td>
+      <td>{{item.qty}}</td>
+      <td>₹{{item.price}}</td>
+      <td>₹{{item.qty * item.price}}</td>
+    </tr>
+  </table>
+
+  <hr>
+
+  <div class="totals">
+    <p>Tax: ₹{{tax}}</p>
+    <p>Discount: ₹{{discount}}</p>
+    <h2>Total: ₹{{total}}</h2>
+  </div>
+
+  <div class="no-print">
+    <button (click)="print()">Print</button>
+    <button (click)="generatePDF()">Download PDF</button>
+  </div>
+
+</div>

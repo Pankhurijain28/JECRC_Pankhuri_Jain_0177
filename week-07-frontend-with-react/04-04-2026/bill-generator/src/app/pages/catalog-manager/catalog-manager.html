@@ -1,0 +1,9 @@
+<button (click)="addItem()">➕ Add Item</button>
+
+<div *ngFor="let item of items; let i=index">
+  <input [(ngModel)]="item.name">
+  <input [(ngModel)]="item.price">
+  <input [(ngModel)]="item.category">
+
+  <button (click)="delete(i)">❌</button>
+</div>

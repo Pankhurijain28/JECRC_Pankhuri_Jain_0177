@@ -1,0 +1,38 @@
+.catalog {
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.tabs {
+  margin-bottom: 10px;
+}
+
+.tabs button {
+  margin-right: 10px;
+  background: #334155;
+  color: white;
+}
+
+.tabs button:hover {
+  background: #475569;
+}
+
+.items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.card {
+  background: #334155;
+  padding: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  background: #475569;
+}

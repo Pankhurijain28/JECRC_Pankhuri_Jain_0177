@@ -1,0 +1,50 @@
+<div class="app">
+
+  <!-- SIDEBAR -->
+  <div class="sidebar">
+    <h2>🧾 SmartBill Pro</h2>
+
+    <ul>
+      <li class="active">Generate Bill</li>
+      <li>Reports</li>
+      <li>Catalog</li>
+    </ul>
+  </div>
+
+  <!-- MAIN -->
+  <div class="main">
+
+    <h1>Generate Bill</h1>
+
+    <app-catalog-selector (selectItem)="addItem($event)"></app-catalog-selector>
+
+    <app-bill-table [items]="items"></app-bill-table>
+
+    <!-- SUMMARY -->
+    <div class="summary">
+      <h3>Summary</h3>
+
+      <p>Subtotal: ₹{{subtotal}}</p>
+      <p>Tax: ₹{{tax}}</p>
+
+      <input placeholder="Discount" [(ngModel)]="discount">
+
+      <h2>Total: ₹{{total}}</h2>
+
+      <button class="generate-btn" (click)="generateInvoice()">
+        Generate Invoice
+      </button>
+    </div>
+
+    <!-- SHOW ONLY AFTER CLICK -->
+    <app-invoice-preview
+      *ngIf="showInvoice"
+      [items]="items"
+      [total]="total"
+      [tax]="tax"
+      [discount]="discount">
+    </app-invoice-preview>
+
+  </div>
+
+</div>
