@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "Wjha0P9qYSM=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-08\\10-04-2026\\case-studies\\EmployeePortal\\EmployeePortal.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\91637\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\10.0.5\\microsoft.aspnetcore.jsonpatch.10.0.5.nupkg.sha512",
+    "C:\\Users\\91637\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\10.0.5\\microsoft.aspnetcore.mvc.newtonsoftjson.10.0.5.nupkg.sha512",
+    "C:\\Users\\91637\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.3\\microsoft.aspnetcore.openapi.10.0.3.nupkg.sha512",
+    "C:\\Users\\91637\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512",
+    "C:\\Users\\91637\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\91637\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
