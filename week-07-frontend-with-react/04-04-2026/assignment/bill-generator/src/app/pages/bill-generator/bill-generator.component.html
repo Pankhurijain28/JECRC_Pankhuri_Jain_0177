@@ -1,0 +1,27 @@
+<div class="layout">
+
+  <app-catalog-selector (selectItem)="addItem($event)"></app-catalog-selector>
+
+  <app-bill-table [items]="items"></app-bill-table>
+
+  <h3>Custom Item</h3>
+  <input placeholder="Name" [(ngModel)]="customName">
+  <input placeholder="Price" [(ngModel)]="customPrice">
+  <button (click)="addCustom()">Add</button>
+
+  <h3>Donation</h3>
+  <input [(ngModel)]="donationAmount">
+  <button (click)="addDonation()">Donate</button>
+
+  <h3>Discount</h3>
+  <select [(ngModel)]="discountType">
+    <option value="amount">₹</option>
+    <option value="percent">%</option>
+  </select>
+  <input [(ngModel)]="discount">
+
+  <h2>Total: ₹{{total}}</h2>
+
+  <button (click)="generateInvoice()">Generate Invoice</button>
+
+</div>

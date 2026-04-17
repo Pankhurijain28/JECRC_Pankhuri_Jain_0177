@@ -1,0 +1,13 @@
+<div class="catalog">
+
+  <input placeholder="Search..." [(ngModel)]="search">
+
+  <div class="items">
+    <div class="card" *ngFor="let item of filteredItems()" (click)="select(item)">
+      <img [src]="item.image" />
+      <h4>{{item.name}}</h4>
+      <p>₹{{item.price}}</p>
+    </div>
+  </div>
+
+</div>
