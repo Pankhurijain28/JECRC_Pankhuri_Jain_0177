@@ -1,0 +1,6 @@
+.stats-card {
+  margin-top: 15px;
+  padding: 15px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #e0e7ff, #c7d2fe);
+}

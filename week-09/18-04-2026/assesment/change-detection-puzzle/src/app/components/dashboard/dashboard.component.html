@@ -1,0 +1,22 @@
+<h2>Dashboard (OnPush)</h2>
+
+<button (click)="toggleMode()">
+  Switch Mode
+</button>
+
+<p>Mode: {{ isExamMode ? 'Exam' : 'Interactive' }}</p>
+
+<p>Name: {{ userStats.name }}</p>
+<p>Score: {{ userStats.score }}</p>
+
+<!-- EXAM MODE -->
+<div *ngIf="isExamMode">
+  <button (click)="updateLocally()">Update Score (Mutation)</button>
+</div>
+
+<!-- INTERACTIVE MODE -->
+<div *ngIf="!isExamMode">
+  <button (click)="updateImmutable()">Update (Immutable)</button>
+</div>
+
+<app-stats [userStats]="userStats"></app-stats>
