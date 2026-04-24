@@ -1,0 +1,87 @@
+/* Page styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #74ebd5, #acb6e5);
+  margin: 0;
+  height: 100vh;
+}
+
+/* Center container */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 80px;
+}
+
+/* Title */
+h2 {
+  font-size: 32px;
+  color: #222;
+  margin-bottom: 25px;
+}
+
+/* Input box */
+input {
+  width: 300px;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  font-size: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+input:focus {
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+/* Weather card */
+[data-test-id="weather-details"] {
+  margin-top: 25px;
+  padding: 20px 30px;
+  border-radius: 12px;
+  background: white;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  width: 300px;
+  text-align: center;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Temperature */
+[data-test-id="output-temperature"] {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ff6b6b;
+  margin-bottom: 10px;
+}
+
+/* Wind & humidity */
+[data-test-id="output-wind"],
+[data-test-id="output-humidity"] {
+  font-size: 16px;
+  color: #555;
+  margin: 5px 0;
+}
+
+/* No results */
+[data-test-id="no-results"] {
+  margin-top: 20px;
+  color: #ff4d4d;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
