@@ -1,0 +1,15 @@
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Student_Grade_Processor\bin\Debug\net10.0\Student_Grade_Processor.exe
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Student_Grade_Processor\bin\Debug\net10.0\Student_Grade_Processor.deps.json
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Student_Grade_Processor\bin\Debug\net10.0\Student_Grade_Processor.runtimeconfig.json
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Student_Grade_Processor\bin\Debug\net10.0\Student_Grade_Processor.dll
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Student_Grade_Processor\bin\Debug\net10.0\Student_Grade_Processor.pdb
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Student_Grade_Processor\obj\Debug\net10.0\Student_Grade_Processor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Student_Grade_Processor\obj\Debug\net10.0\Student_Grade_Processor.AssemblyInfoInputs.cache
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Student_Grade_Processor\obj\Debug\net10.0\Student_Grade_Processor.AssemblyInfo.cs
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Student_Grade_Processor\obj\Debug\net10.0\Student_Grade_Processor.csproj.CoreCompileInputs.cache
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Student_Grade_Processor\obj\Debug\net10.0\Student_Grade_Processor.sourcelink.json
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Student_Grade_Processor\obj\Debug\net10.0\Student_Grade_Processor.dll
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Student_Grade_Processor\obj\Debug\net10.0\refint\Student_Grade_Processor.dll
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Student_Grade_Processor\obj\Debug\net10.0\Student_Grade_Processor.pdb
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Student_Grade_Processor\obj\Debug\net10.0\Student_Grade_Processor.genruntimeconfig.cache
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Student_Grade_Processor\obj\Debug\net10.0\ref\Student_Grade_Processor.dll

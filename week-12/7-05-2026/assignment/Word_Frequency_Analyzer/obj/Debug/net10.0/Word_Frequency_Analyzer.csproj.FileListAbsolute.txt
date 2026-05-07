@@ -1,0 +1,15 @@
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Word_Frequency_Analyzer\bin\Debug\net10.0\Word_Frequency_Analyzer.exe
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Word_Frequency_Analyzer\bin\Debug\net10.0\Word_Frequency_Analyzer.deps.json
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Word_Frequency_Analyzer\bin\Debug\net10.0\Word_Frequency_Analyzer.runtimeconfig.json
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Word_Frequency_Analyzer\bin\Debug\net10.0\Word_Frequency_Analyzer.dll
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Word_Frequency_Analyzer\bin\Debug\net10.0\Word_Frequency_Analyzer.pdb
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Word_Frequency_Analyzer\obj\Debug\net10.0\Word_Frequency_Analyzer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Word_Frequency_Analyzer\obj\Debug\net10.0\Word_Frequency_Analyzer.AssemblyInfoInputs.cache
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Word_Frequency_Analyzer\obj\Debug\net10.0\Word_Frequency_Analyzer.AssemblyInfo.cs
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Word_Frequency_Analyzer\obj\Debug\net10.0\Word_Frequency_Analyzer.csproj.CoreCompileInputs.cache
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Word_Frequency_Analyzer\obj\Debug\net10.0\Word_Frequency_Analyzer.sourcelink.json
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Word_Frequency_Analyzer\obj\Debug\net10.0\Word_Frequency_Analyzer.dll
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Word_Frequency_Analyzer\obj\Debug\net10.0\refint\Word_Frequency_Analyzer.dll
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Word_Frequency_Analyzer\obj\Debug\net10.0\Word_Frequency_Analyzer.pdb
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Word_Frequency_Analyzer\obj\Debug\net10.0\Word_Frequency_Analyzer.genruntimeconfig.cache
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Word_Frequency_Analyzer\obj\Debug\net10.0\ref\Word_Frequency_Analyzer.dll

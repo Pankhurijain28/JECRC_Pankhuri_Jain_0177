@@ -1,0 +1,15 @@
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Sales_Data_Aggregator\bin\Debug\net10.0\Sales_Data_Aggregator.exe
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Sales_Data_Aggregator\bin\Debug\net10.0\Sales_Data_Aggregator.deps.json
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Sales_Data_Aggregator\bin\Debug\net10.0\Sales_Data_Aggregator.runtimeconfig.json
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Sales_Data_Aggregator\bin\Debug\net10.0\Sales_Data_Aggregator.dll
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Sales_Data_Aggregator\bin\Debug\net10.0\Sales_Data_Aggregator.pdb
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Sales_Data_Aggregator\obj\Debug\net10.0\Sales_Data_Aggregator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Sales_Data_Aggregator\obj\Debug\net10.0\Sales_Data_Aggregator.AssemblyInfoInputs.cache
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Sales_Data_Aggregator\obj\Debug\net10.0\Sales_Data_Aggregator.AssemblyInfo.cs
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Sales_Data_Aggregator\obj\Debug\net10.0\Sales_Data_Aggregator.csproj.CoreCompileInputs.cache
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Sales_Data_Aggregator\obj\Debug\net10.0\Sales_Data_Aggregator.sourcelink.json
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Sales_Data_Aggregator\obj\Debug\net10.0\Sales_Data_Aggregator.dll
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Sales_Data_Aggregator\obj\Debug\net10.0\refint\Sales_Data_Aggregator.dll
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Sales_Data_Aggregator\obj\Debug\net10.0\Sales_Data_Aggregator.pdb
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Sales_Data_Aggregator\obj\Debug\net10.0\Sales_Data_Aggregator.genruntimeconfig.cache
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Sales_Data_Aggregator\obj\Debug\net10.0\ref\Sales_Data_Aggregator.dll

@@ -1,0 +1,15 @@
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Sequence_Pattern_Detector\bin\Debug\net10.0\Sequence_Pattern_Detector.exe
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Sequence_Pattern_Detector\bin\Debug\net10.0\Sequence_Pattern_Detector.deps.json
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Sequence_Pattern_Detector\bin\Debug\net10.0\Sequence_Pattern_Detector.runtimeconfig.json
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Sequence_Pattern_Detector\bin\Debug\net10.0\Sequence_Pattern_Detector.dll
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Sequence_Pattern_Detector\bin\Debug\net10.0\Sequence_Pattern_Detector.pdb
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Sequence_Pattern_Detector\obj\Debug\net10.0\Sequence_Pattern_Detector.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Sequence_Pattern_Detector\obj\Debug\net10.0\Sequence_Pattern_Detector.AssemblyInfoInputs.cache
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Sequence_Pattern_Detector\obj\Debug\net10.0\Sequence_Pattern_Detector.AssemblyInfo.cs
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Sequence_Pattern_Detector\obj\Debug\net10.0\Sequence_Pattern_Detector.csproj.CoreCompileInputs.cache
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Sequence_Pattern_Detector\obj\Debug\net10.0\Sequence_Pattern_Detector.sourcelink.json
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Sequence_Pattern_Detector\obj\Debug\net10.0\Sequence_Pattern_Detector.dll
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Sequence_Pattern_Detector\obj\Debug\net10.0\refint\Sequence_Pattern_Detector.dll
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Sequence_Pattern_Detector\obj\Debug\net10.0\Sequence_Pattern_Detector.pdb
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Sequence_Pattern_Detector\obj\Debug\net10.0\Sequence_Pattern_Detector.genruntimeconfig.cache
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Sequence_Pattern_Detector\obj\Debug\net10.0\ref\Sequence_Pattern_Detector.dll

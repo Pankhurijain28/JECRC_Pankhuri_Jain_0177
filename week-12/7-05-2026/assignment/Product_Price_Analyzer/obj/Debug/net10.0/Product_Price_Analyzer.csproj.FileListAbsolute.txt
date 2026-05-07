@@ -1,0 +1,15 @@
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Product_Price_Analyzer\bin\Debug\net10.0\Product_Price_Analyzer.exe
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Product_Price_Analyzer\bin\Debug\net10.0\Product_Price_Analyzer.deps.json
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Product_Price_Analyzer\bin\Debug\net10.0\Product_Price_Analyzer.runtimeconfig.json
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Product_Price_Analyzer\bin\Debug\net10.0\Product_Price_Analyzer.dll
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Product_Price_Analyzer\bin\Debug\net10.0\Product_Price_Analyzer.pdb
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Product_Price_Analyzer\obj\Debug\net10.0\Product_Price_Analyzer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Product_Price_Analyzer\obj\Debug\net10.0\Product_Price_Analyzer.AssemblyInfoInputs.cache
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Product_Price_Analyzer\obj\Debug\net10.0\Product_Price_Analyzer.AssemblyInfo.cs
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Product_Price_Analyzer\obj\Debug\net10.0\Product_Price_Analyzer.csproj.CoreCompileInputs.cache
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Product_Price_Analyzer\obj\Debug\net10.0\Product_Price_Analyzer.sourcelink.json
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Product_Price_Analyzer\obj\Debug\net10.0\Product_Price_Analyzer.dll
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Product_Price_Analyzer\obj\Debug\net10.0\refint\Product_Price_Analyzer.dll
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Product_Price_Analyzer\obj\Debug\net10.0\Product_Price_Analyzer.pdb
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Product_Price_Analyzer\obj\Debug\net10.0\Product_Price_Analyzer.genruntimeconfig.cache
+C:\Users\91637\Capegemini Dotnet Training\week-12\7-05-2026\assignment\Product_Price_Analyzer\obj\Debug\net10.0\ref\Product_Price_Analyzer.dll
