@@ -1,0 +1,77 @@
+﻿@model FoodOrdering.MVC.ViewModels.FoodCreateViewModel
+
+<div class="container mt-5">
+
+    <div class="cart-card">
+
+        <h1 class="mb-4">
+            ✏️ Edit Food Item
+        </h1>
+
+        <form method="post" enctype="multipart/form-data">
+
+            <div class="mb-3">
+
+                <label>Name</label>
+
+                <input asp-for="Name"
+                       class="form-control" />
+
+            </div>
+
+            <div class="mb-3">
+
+                <label>Description</label>
+
+                <textarea asp-for="Description"
+                          class="form-control"></textarea>
+
+            </div>
+
+            <div class="mb-3">
+
+                <label>Price</label>
+
+                <input asp-for="Price"
+                       class="form-control" />
+
+            </div>
+
+            <div class="mb-3">
+
+                <label>Category</label>
+
+                <select asp-for="CategoryId"
+                        asp-items="Model.Categories"
+                        class="form-select">
+
+                    <option value="">
+                        Select Category
+                    </option>
+
+                </select>
+
+            </div>
+
+            <div class="mb-3">
+
+                <label>New Food Image</label>
+
+                <input asp-for="ImageFile"
+                       type="file"
+                       class="form-control" />
+
+            </div>
+
+            <button type="submit"
+                    class="btn btn-cart">
+
+                Update Food
+
+            </button>
+
+        </form>
+
+    </div>
+
+</div>

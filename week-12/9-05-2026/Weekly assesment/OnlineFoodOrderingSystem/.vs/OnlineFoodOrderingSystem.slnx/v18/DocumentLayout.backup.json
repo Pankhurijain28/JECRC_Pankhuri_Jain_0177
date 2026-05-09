@@ -1,0 +1,934 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4DCAA517-FA8F-AFFC-92F7-64050777AEF1}|FoodOrdering.API\\FoodOrdering.API.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4DCAA517-FA8F-AFFC-92F7-64050777AEF1}|FoodOrdering.API\\FoodOrdering.API.csproj|solutionrelative:foodordering.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.mvc\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|solutionrelative:foodordering.mvc\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.mvc\\viewmodel\\orderitemcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|solutionrelative:foodordering.mvc\\viewmodel\\orderitemcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.mvc\\viewmodel\\ordercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|solutionrelative:foodordering.mvc\\viewmodel\\ordercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.mvc\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|solutionrelative:foodordering.mvc\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.mvc\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|solutionrelative:foodordering.mvc\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.mvc\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|solutionrelative:foodordering.mvc\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|solutionrelative:foodordering.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|solutionrelative:foodordering.mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|solutionrelative:foodordering.mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.mvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|solutionrelative:foodordering.mvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.mvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|solutionrelative:foodordering.mvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.mvc\\views\\admin\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|solutionrelative:foodordering.mvc\\views\\admin\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|solutionrelative:foodordering.mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.mvc\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|solutionrelative:foodordering.mvc\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.mvc\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|solutionrelative:foodordering.mvc\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.mvc\\viewmodel\\authresponseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|solutionrelative:foodordering.mvc\\viewmodel\\authresponseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.mvc\\viewmodel\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|solutionrelative:foodordering.mvc\\viewmodel\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.mvc\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|solutionrelative:foodordering.mvc\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.mvc\\views\\admin\\editfood.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|solutionrelative:foodordering.mvc\\views\\admin\\editfood.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.mvc\\viewmodel\\invoiceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|solutionrelative:foodordering.mvc\\viewmodel\\invoiceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.mvc\\viewmodel\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|solutionrelative:foodordering.mvc\\viewmodel\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.mvc\\viewmodel\\orderitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|solutionrelative:foodordering.mvc\\viewmodel\\orderitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.mvc\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|solutionrelative:foodordering.mvc\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.mvc\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|solutionrelative:foodordering.mvc\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.mvc\\services\\invoiceservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|solutionrelative:foodordering.mvc\\services\\invoiceservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.mvc\\views\\admin\\editfood.cshtml||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|solutionrelative:foodordering.mvc\\views\\admin\\editfood.cshtml||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.mvc\\views\\admin\\foods.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|solutionrelative:foodordering.mvc\\views\\admin\\foods.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.mvc\\viewmodel\\fooditemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|solutionrelative:foodordering.mvc\\viewmodel\\fooditemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.mvc\\views\\admin\\createfood.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|solutionrelative:foodordering.mvc\\views\\admin\\createfood.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.mvc\\viewmodel\\fooditemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|solutionrelative:foodordering.mvc\\viewmodel\\fooditemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.mvc\\viewmodel\\foodcreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|solutionrelative:foodordering.mvc\\viewmodel\\foodcreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.mvc\\views\\admin\\createcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|solutionrelative:foodordering.mvc\\views\\admin\\createcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.mvc\\viewmodel\\categoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|solutionrelative:foodordering.mvc\\viewmodel\\categoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.mvc\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|solutionrelative:foodordering.mvc\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.mvc\\views\\cart\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|solutionrelative:foodordering.mvc\\views\\cart\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.mvc\\views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|solutionrelative:foodordering.mvc\\views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.mvc\\viewmodel\\createorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|solutionrelative:foodordering.mvc\\viewmodel\\createorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.mvc\\viewmodel\\orderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|solutionrelative:foodordering.mvc\\viewmodel\\orderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.mvc\\viewmodel\\checkoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D2ABE8-78B9-2978-F8C9-557B88813CA6}|FoodOrdering.MVC\\FoodOrdering.MVC.csproj|solutionrelative:foodordering.mvc\\viewmodel\\checkoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DCAA517-FA8F-AFFC-92F7-64050777AEF1}|FoodOrdering.API\\FoodOrdering.API.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.api\\controllers\\uploadcontoller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DCAA517-FA8F-AFFC-92F7-64050777AEF1}|FoodOrdering.API\\FoodOrdering.API.csproj|solutionrelative:foodordering.api\\controllers\\uploadcontoller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DCAA517-FA8F-AFFC-92F7-64050777AEF1}|FoodOrdering.API\\FoodOrdering.API.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.api\\dtos\\uploadimagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DCAA517-FA8F-AFFC-92F7-64050777AEF1}|FoodOrdering.API\\FoodOrdering.API.csproj|solutionrelative:foodordering.api\\dtos\\uploadimagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DCAA517-FA8F-AFFC-92F7-64050777AEF1}|FoodOrdering.API\\FoodOrdering.API.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DCAA517-FA8F-AFFC-92F7-64050777AEF1}|FoodOrdering.API\\FoodOrdering.API.csproj|solutionrelative:foodordering.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DCAA517-FA8F-AFFC-92F7-64050777AEF1}|FoodOrdering.API\\FoodOrdering.API.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.api\\controllers\\fooditemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DCAA517-FA8F-AFFC-92F7-64050777AEF1}|FoodOrdering.API\\FoodOrdering.API.csproj|solutionrelative:foodordering.api\\controllers\\fooditemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DCAA517-FA8F-AFFC-92F7-64050777AEF1}|FoodOrdering.API\\FoodOrdering.API.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DCAA517-FA8F-AFFC-92F7-64050777AEF1}|FoodOrdering.API\\FoodOrdering.API.csproj|solutionrelative:foodordering.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DCAA517-FA8F-AFFC-92F7-64050777AEF1}|FoodOrdering.API\\FoodOrdering.API.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DCAA517-FA8F-AFFC-92F7-64050777AEF1}|FoodOrdering.API\\FoodOrdering.API.csproj|solutionrelative:foodordering.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DCAA517-FA8F-AFFC-92F7-64050777AEF1}|FoodOrdering.API\\FoodOrdering.API.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.api\\dtos\\fooditemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DCAA517-FA8F-AFFC-92F7-64050777AEF1}|FoodOrdering.API\\FoodOrdering.API.csproj|solutionrelative:foodordering.api\\dtos\\fooditemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DCAA517-FA8F-AFFC-92F7-64050777AEF1}|FoodOrdering.API\\FoodOrdering.API.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.api\\foodordering.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4DCAA517-FA8F-AFFC-92F7-64050777AEF1}|FoodOrdering.API\\FoodOrdering.API.csproj|solutionrelative:foodordering.api\\foodordering.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DCAA517-FA8F-AFFC-92F7-64050777AEF1}|FoodOrdering.API\\FoodOrdering.API.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.api\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DCAA517-FA8F-AFFC-92F7-64050777AEF1}|FoodOrdering.API\\FoodOrdering.API.csproj|solutionrelative:foodordering.api\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DCAA517-FA8F-AFFC-92F7-64050777AEF1}|FoodOrdering.API\\FoodOrdering.API.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.api\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DCAA517-FA8F-AFFC-92F7-64050777AEF1}|FoodOrdering.API\\FoodOrdering.API.csproj|solutionrelative:foodordering.api\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DCAA517-FA8F-AFFC-92F7-64050777AEF1}|FoodOrdering.API\\FoodOrdering.API.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.api\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DCAA517-FA8F-AFFC-92F7-64050777AEF1}|FoodOrdering.API\\FoodOrdering.API.csproj|solutionrelative:foodordering.api\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DCAA517-FA8F-AFFC-92F7-64050777AEF1}|FoodOrdering.API\\FoodOrdering.API.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.api\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DCAA517-FA8F-AFFC-92F7-64050777AEF1}|FoodOrdering.API\\FoodOrdering.API.csproj|solutionrelative:foodordering.api\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DCAA517-FA8F-AFFC-92F7-64050777AEF1}|FoodOrdering.API\\FoodOrdering.API.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DCAA517-FA8F-AFFC-92F7-64050777AEF1}|FoodOrdering.API\\FoodOrdering.API.csproj|solutionrelative:foodordering.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DCAA517-FA8F-AFFC-92F7-64050777AEF1}|FoodOrdering.API\\FoodOrdering.API.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.api\\models\\fooditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DCAA517-FA8F-AFFC-92F7-64050777AEF1}|FoodOrdering.API\\FoodOrdering.API.csproj|solutionrelative:foodordering.api\\models\\fooditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DCAA517-FA8F-AFFC-92F7-64050777AEF1}|FoodOrdering.API\\FoodOrdering.API.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.api\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DCAA517-FA8F-AFFC-92F7-64050777AEF1}|FoodOrdering.API\\FoodOrdering.API.csproj|solutionrelative:foodordering.api\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EF6FA7E-E2D5-C6DF-181D-4C9B36B8021A}|FoodOrdering.Shared\\FoodOrdering.Shared.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.shared\\foodordering.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1EF6FA7E-E2D5-C6DF-181D-4C9B36B8021A}|FoodOrdering.Shared\\FoodOrdering.Shared.csproj|solutionrelative:foodordering.shared\\foodordering.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EF6FA7E-E2D5-C6DF-181D-4C9B36B8021A}|FoodOrdering.Shared\\FoodOrdering.Shared.csproj|c:\\users\\91637\\capegemini dotnet training\\week-12\\9-05-2026\\weekly assesment\\onlinefoodorderingsystem\\foodordering.shared\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EF6FA7E-E2D5-C6DF-181D-4C9B36B8021A}|FoodOrdering.Shared\\FoodOrdering.Shared.csproj|solutionrelative:foodordering.shared\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\Dockerfile",
+              "RelativeDocumentMoniker": "FoodOrdering.MVC\\Dockerfile",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\Dockerfile",
+              "RelativeToolTip": "FoodOrdering.MVC\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwAcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-05-09T12:51:12.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "orderCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\ViewModel\\orderCreateDto.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.MVC\\ViewModel\\orderCreateDto.cs",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\ViewModel\\orderCreateDto.cs",
+              "RelativeToolTip": "FoodOrdering.MVC\\ViewModel\\orderCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T12:45:46.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "FoodOrdering.MVC\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "FoodOrdering.MVC\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAABAAAAAAAAAAAAAowCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-05-09T11:28:08.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FoodOrdering.MVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "FoodOrdering.MVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAALwAAAAAAAAAAAAuwMQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-09T11:27:39.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "FoodOrdering.MVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "FoodOrdering.MVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAOAAAAAAAAAAAAAuwPYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-09T10:02:11.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.MVC\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "FoodOrdering.MVC\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAowJgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T12:14:14.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.MVC\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "FoodOrdering.MVC\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAN8AAAAAAAAAAAAuwOgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T11:35:08.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\appsettings.json",
+              "RelativeDocumentMoniker": "FoodOrdering.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\appsettings.json",
+              "RelativeToolTip": "FoodOrdering.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-09T06:18:31.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderItemCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\ViewModel\\OrderItemCreateDto.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.MVC\\ViewModel\\OrderItemCreateDto.cs",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\ViewModel\\OrderItemCreateDto.cs",
+              "RelativeToolTip": "FoodOrdering.MVC\\ViewModel\\OrderItemCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T12:46:37.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApiService.cs",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\Services\\ApiService.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.MVC\\Services\\ApiService.cs",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\Services\\ApiService.cs",
+              "RelativeToolTip": "FoodOrdering.MVC\\Services\\ApiService.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAuwIoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T09:59:51.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\Program.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.MVC\\Program.cs",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\Program.cs",
+              "RelativeToolTip": "FoodOrdering.MVC\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T10:00:22.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.MVC\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\Controllers\\CartController.cs",
+              "RelativeToolTip": "FoodOrdering.MVC\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAuwKUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T10:59:08.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Orders.cshtml",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\Views\\Admin\\Orders.cshtml",
+              "RelativeDocumentMoniker": "FoodOrdering.MVC\\Views\\Admin\\Orders.cshtml",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\Views\\Admin\\Orders.cshtml",
+              "RelativeToolTip": "FoodOrdering.MVC\\Views\\Admin\\Orders.cshtml",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAwwGIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-09T11:36:28.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.MVC\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "FoodOrdering.MVC\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvxwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T10:01:49.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "FoodOrdering.MVC\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "FoodOrdering.MVC\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAADwvzIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-09T12:04:50.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "FoodOrdering.MVC\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "FoodOrdering.MVC\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAACUAAAAAAAAAAADwvzwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-09T12:04:13.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AuthResponseViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\ViewModel\\AuthResponseViewModel.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.MVC\\ViewModel\\AuthResponseViewModel.cs",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\ViewModel\\AuthResponseViewModel.cs",
+              "RelativeToolTip": "FoodOrdering.MVC\\ViewModel\\AuthResponseViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T12:02:44.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\ViewModel\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.MVC\\ViewModel\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\ViewModel\\RegisterViewModel.cs",
+              "RelativeToolTip": "FoodOrdering.MVC\\ViewModel\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T12:02:03.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\ViewModel\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.MVC\\ViewModel\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\ViewModel\\LoginViewModel.cs",
+              "RelativeToolTip": "FoodOrdering.MVC\\ViewModel\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T12:00:54.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EditFood.cshtml",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\Views\\Admin\\EditFood.cshtml",
+              "RelativeDocumentMoniker": "FoodOrdering.MVC\\Views\\Admin\\EditFood.cshtml",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\Views\\Admin\\EditFood.cshtml",
+              "RelativeToolTip": "FoodOrdering.MVC\\Views\\Admin\\EditFood.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAmwEwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-09T11:56:29.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "OrderViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\ViewModel\\OrderViewModel.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.MVC\\ViewModel\\OrderViewModel.cs",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\ViewModel\\OrderViewModel.cs",
+              "RelativeToolTip": "FoodOrdering.MVC\\ViewModel\\OrderViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T11:55:50.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "OrderItemViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\ViewModel\\OrderItemViewModel.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.MVC\\ViewModel\\OrderItemViewModel.cs",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\ViewModel\\OrderItemViewModel.cs",
+              "RelativeToolTip": "FoodOrdering.MVC\\ViewModel\\OrderItemViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T11:55:10.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\Views\\Orders\\Index.cshtml",
+              "RelativeDocumentMoniker": "FoodOrdering.MVC\\Views\\Orders\\Index.cshtml",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\Views\\Orders\\Index.cshtml",
+              "RelativeToolTip": "FoodOrdering.MVC\\Views\\Orders\\Index.cshtml",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAuwIoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-09T11:52:41.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.MVC\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "FoodOrdering.MVC\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAAEoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T11:50:14.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "InvoiceServices.cs",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\Services\\InvoiceServices.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.MVC\\Services\\InvoiceServices.cs",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\Services\\InvoiceServices.cs",
+              "RelativeToolTip": "FoodOrdering.MVC\\Services\\InvoiceServices.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAuwFEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T11:48:16.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "InvoiceViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\ViewModel\\InvoiceViewModel.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.MVC\\ViewModel\\InvoiceViewModel.cs",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\ViewModel\\InvoiceViewModel.cs",
+              "RelativeToolTip": "FoodOrdering.MVC\\ViewModel\\InvoiceViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAYwBMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T11:47:30.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "EditFood.cshtml",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\Views\\Admin\\EditFood.cshtml",
+              "RelativeDocumentMoniker": "FoodOrdering.MVC\\Views\\Admin\\EditFood.cshtml",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\Views\\Admin\\EditFood.cshtml",
+              "RelativeToolTip": "FoodOrdering.MVC\\Views\\Admin\\EditFood.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwEwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-09T11:45:50.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CreateFood.cshtml",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\Views\\Admin\\CreateFood.cshtml",
+              "RelativeDocumentMoniker": "FoodOrdering.MVC\\Views\\Admin\\CreateFood.cshtml",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\Views\\Admin\\CreateFood.cshtml",
+              "RelativeToolTip": "FoodOrdering.MVC\\Views\\Admin\\CreateFood.cshtml",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAmwE4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-09T11:42:12.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Foods.cshtml",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\Views\\Admin\\Foods.cshtml",
+              "RelativeDocumentMoniker": "FoodOrdering.MVC\\Views\\Admin\\Foods.cshtml",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\Views\\Admin\\Foods.cshtml",
+              "RelativeToolTip": "FoodOrdering.MVC\\Views\\Admin\\Foods.cshtml",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAmwF0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-09T11:41:35.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "FoodItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\ViewModel\\FoodItemDto.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.MVC\\ViewModel\\FoodItemDto.cs",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\ViewModel\\FoodItemDto.cs",
+              "RelativeToolTip": "FoodOrdering.MVC\\ViewModel\\FoodItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T11:39:28.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "FoodItemViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\ViewModel\\FoodItemViewModel.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.MVC\\ViewModel\\FoodItemViewModel.cs",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\ViewModel\\FoodItemViewModel.cs",
+              "RelativeToolTip": "FoodOrdering.MVC\\ViewModel\\FoodItemViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T10:01:23.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "FoodCreateViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\ViewModel\\FoodCreateViewModel.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.MVC\\ViewModel\\FoodCreateViewModel.cs",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\ViewModel\\FoodCreateViewModel.cs",
+              "RelativeToolTip": "FoodOrdering.MVC\\ViewModel\\FoodCreateViewModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAcwBYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T11:38:58.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CreateCategory.cshtml",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\Views\\Admin\\CreateCategory.cshtml",
+              "RelativeDocumentMoniker": "FoodOrdering.MVC\\Views\\Admin\\CreateCategory.cshtml",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\Views\\Admin\\CreateCategory.cshtml",
+              "RelativeToolTip": "FoodOrdering.MVC\\Views\\Admin\\CreateCategory.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAcwCIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-09T11:36:58.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CategoryViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\ViewModel\\CategoryViewModel.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.MVC\\ViewModel\\CategoryViewModel.cs",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\ViewModel\\CategoryViewModel.cs",
+              "RelativeToolTip": "FoodOrdering.MVC\\ViewModel\\CategoryViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T11:35:50.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "index.cshtml",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\Views\\Cart\\index.cshtml",
+              "RelativeDocumentMoniker": "FoodOrdering.MVC\\Views\\Cart\\index.cshtml",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\Views\\Cart\\index.cshtml",
+              "RelativeToolTip": "FoodOrdering.MVC\\Views\\Cart\\index.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAIwFcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-09T11:00:12.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Success.cshtml",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\Views\\Cart\\Success.cshtml",
+              "RelativeDocumentMoniker": "FoodOrdering.MVC\\Views\\Cart\\Success.cshtml",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\Views\\Cart\\Success.cshtml",
+              "RelativeToolTip": "FoodOrdering.MVC\\Views\\Cart\\Success.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAkwBYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-09T11:01:28.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\Views\\Cart\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "FoodOrdering.MVC\\Views\\Cart\\Checkout.cshtml",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\Views\\Cart\\Checkout.cshtml",
+              "RelativeToolTip": "FoodOrdering.MVC\\Views\\Cart\\Checkout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-09T11:00:46.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CreateOrderDto.cs",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\ViewModel\\CreateOrderDto.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.MVC\\ViewModel\\CreateOrderDto.cs",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\ViewModel\\CreateOrderDto.cs",
+              "RelativeToolTip": "FoodOrdering.MVC\\ViewModel\\CreateOrderDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T10:58:25.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "OrderItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\ViewModel\\OrderItemDto.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.MVC\\ViewModel\\OrderItemDto.cs",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\ViewModel\\OrderItemDto.cs",
+              "RelativeToolTip": "FoodOrdering.MVC\\ViewModel\\OrderItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T10:57:42.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "CheckoutViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\ViewModel\\CheckoutViewModel.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.MVC\\ViewModel\\CheckoutViewModel.cs",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.MVC\\ViewModel\\CheckoutViewModel.cs",
+              "RelativeToolTip": "FoodOrdering.MVC\\ViewModel\\CheckoutViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T10:57:10.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "UploadContoller.cs",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\Controllers\\UploadContoller.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.API\\Controllers\\UploadContoller.cs",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\Controllers\\UploadContoller.cs",
+              "RelativeToolTip": "FoodOrdering.API\\Controllers\\UploadContoller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T08:03:41.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "UploadImageDto.cs",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\DTOs\\UploadImageDto.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.API\\DTOs\\UploadImageDto.cs",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\DTOs\\UploadImageDto.cs",
+              "RelativeToolTip": "FoodOrdering.API\\DTOs\\UploadImageDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T08:03:16.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\Program.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.API\\Program.cs",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\Program.cs",
+              "RelativeToolTip": "FoodOrdering.API\\Program.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAAAG8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:18:44.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.API\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "FoodOrdering.API\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwB0AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T07:14:37.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "FoodOrdering.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T07:02:39.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "FoodItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\DTOs\\FoodItemDto.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.API\\DTOs\\FoodItemDto.cs",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\DTOs\\FoodItemDto.cs",
+              "RelativeToolTip": "FoodOrdering.API\\DTOs\\FoodItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T07:14:11.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "FoodItemController.cs",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\Controllers\\FoodItemController.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.API\\Controllers\\FoodItemController.cs",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\Controllers\\FoodItemController.cs",
+              "RelativeToolTip": "FoodOrdering.API\\Controllers\\FoodItemController.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAswFMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T07:15:07.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "FoodOrdering.API.csproj",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\FoodOrdering.API.csproj",
+              "RelativeDocumentMoniker": "FoodOrdering.API\\FoodOrdering.API.csproj",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\FoodOrdering.API.csproj",
+              "RelativeToolTip": "FoodOrdering.API\\FoodOrdering.API.csproj",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAowB4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-09T06:07:24.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "CategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\DTOs\\CategoryDto.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.API\\DTOs\\CategoryDto.cs",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\DTOs\\CategoryDto.cs",
+              "RelativeToolTip": "FoodOrdering.API\\DTOs\\CategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T07:13:48.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\DTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.API\\DTOs\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\DTOs\\LoginDto.cs",
+              "RelativeToolTip": "FoodOrdering.API\\DTOs\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T07:01:07.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\DTOs\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.API\\DTOs\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\DTOs\\RegisterDto.cs",
+              "RelativeToolTip": "FoodOrdering.API\\DTOs\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T07:00:44.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\Controllers\\TestController.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.API\\Controllers\\TestController.cs",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\Controllers\\TestController.cs",
+              "RelativeToolTip": "FoodOrdering.API\\Controllers\\TestController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:43:00.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.API\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "FoodOrdering.API\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAwAkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:29:07.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "FoodItem.cs",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\Models\\FoodItem.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.API\\Models\\FoodItem.cs",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\Models\\FoodItem.cs",
+              "RelativeToolTip": "FoodOrdering.API\\Models\\FoodItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:17:51.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.API\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\Models\\Category.cs",
+              "RelativeToolTip": "FoodOrdering.API\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:17:32.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "FoodOrdering.Shared.csproj",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.Shared\\FoodOrdering.Shared.csproj",
+              "RelativeDocumentMoniker": "FoodOrdering.Shared\\FoodOrdering.Shared.csproj",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.Shared\\FoodOrdering.Shared.csproj",
+              "RelativeToolTip": "FoodOrdering.Shared\\FoodOrdering.Shared.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-09T06:16:08.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.Shared\\Class1.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.Shared\\Class1.cs",
+              "ToolTip": "C:\\Users\\91637\\Capegemini Dotnet Training\\week-12\\9-05-2026\\Weekly assesment\\OnlineFoodOrderingSystem\\FoodOrdering.Shared\\Class1.cs",
+              "RelativeToolTip": "FoodOrdering.Shared\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:03:59.884Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

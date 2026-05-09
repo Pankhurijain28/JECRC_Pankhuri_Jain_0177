@@ -1,0 +1,88 @@
+﻿@model List<FoodOrdering.MVC.ViewModels.CartItemViewModel>
+
+<div class="container mt-4">
+
+    <div class="cart-card">
+
+        <h1 class="mb-4">
+            🛒 Your Cart
+        </h1>
+
+        <table class="table align-middle">
+
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Qty</th>
+                    <th>Total</th>
+                    <th></th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+
+                        <td>
+                            <img src="@item.ImageUrl"
+                                 width="90"
+                                 height="90"
+                                 style="object-fit:cover;" />
+                        </td>
+
+                        <td>
+                            <strong>@item.Name</strong>
+                        </td>
+
+                        <td>
+                            ₹ @item.Price
+                        </td>
+
+                        <td>
+                            @item.Quantity
+                        </td>
+
+                        <td>
+                            ₹ @(item.Price * item.Quantity)
+                        </td>
+
+                        <td>
+                            <a asp-action="Remove"
+                                   asp-route-id="@item.FoodItemId"
+                                   class="btn btn-danger">
+
+                                Remove
+
+                            </a>
+                        </td>
+
+                    </tr>
+                }
+
+            </tbody>
+
+        </table>
+
+        <div class="d-flex justify-content-between align-items-center mt-4">
+
+            <h3>
+                Grand Total:
+                ₹ @Model.Sum(x => x.Price * x.Quantity)
+            </h3>
+
+            <a asp-action="Checkout"
+                   class="btn checkout-btn">
+
+                Proceed To Checkout
+
+            </a>
+
+        </div>
+
+    </div>
+
+</div>

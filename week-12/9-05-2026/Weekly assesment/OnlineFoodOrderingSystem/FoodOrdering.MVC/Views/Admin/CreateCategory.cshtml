@@ -1,0 +1,35 @@
+﻿@model FoodOrdering.MVC.ViewModels.CategoryViewModel
+
+<div class="container mt-5">
+
+    <div class="cart-card">
+
+        <h1 class="mb-4">
+            ➕ Create Category
+        </h1>
+
+        <form method="post">
+
+            <div class="mb-3">
+
+                <label class="form-label">
+                    Category Name
+                </label>
+
+                <input asp-for="Name"
+                       class="form-control" />
+
+            </div>
+
+            <button type="submit"
+                    class="btn btn-cart">
+
+                Create Category
+
+            </button>
+
+        </form>
+
+    </div>
+
+</div>

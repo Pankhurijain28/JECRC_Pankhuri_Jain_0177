@@ -1,0 +1,99 @@
+﻿@model List<FoodOrdering.MVC.ViewModels.OrderViewModel>
+
+<div class="container mt-4">
+
+    <h1 class="food-title">
+        📦 Admin Orders Dashboard
+    </h1>
+
+    @if (Model == null || !Model.Any())
+    {
+        <div class="alert alert-warning">
+
+            No orders found or unauthorized.
+
+        </div>
+    }
+    else
+    {
+        @foreach (var order in Model)
+        {
+            <div class="card order-card shadow-lg mb-4">
+
+                <div class="order-header">
+
+                    <div class="d-flex justify-content-between">
+
+                        <div>
+
+                            <h4>
+                                Order #@order.Id
+                            </h4>
+
+                            <p>
+                                @order.CustomerName
+                            </p>
+
+                        </div>
+
+                        <div>
+
+                            <h5>
+                                @order.Status
+                            </h5>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="card-body">
+
+                    <table class="table">
+
+                        <thead>
+                            <tr>
+                                <th>Food</th>
+                                <th>Price</th>
+                                <th>Qty</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+
+                            @foreach (var item in order.OrderItems)
+                            {
+                                <tr>
+
+                                    <td>
+                                        @item.FoodName
+                                    </td>
+
+                                    <td>
+                                        ₹ @item.Price
+                                    </td>
+
+                                    <td>
+                                        @item.Quantity
+                                    </td>
+
+                                </tr>
+                            }
+
+                        </tbody>
+
+                    </table>
+
+                    <h5>
+                        Total:
+                        ₹ @order.TotalAmount
+                    </h5>
+
+                </div>
+
+            </div>
+        }
+    }
+
+</div>

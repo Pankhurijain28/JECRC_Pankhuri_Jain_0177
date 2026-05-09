@@ -1,0 +1,247 @@
+﻿@model List<FoodOrdering.MVC.ViewModels.FoodItemViewModel>
+
+@{
+    var pizza =
+        Model.Where(x => x.CategoryId == 1).ToList();
+
+    var pasta =
+        Model.Where(x => x.CategoryId == 2).ToList();
+
+    var burgers =
+        Model.Where(x => x.CategoryId == 3).ToList();
+
+    var drinks =
+        Model.Where(x => x.CategoryId == 4).ToList();
+}
+
+<div class="container mb-5">
+
+    <div class="success-box text-center">
+
+        <h1 class="display-3 fw-bold">
+            🍕 Food Delivered At Light Speed
+        </h1>
+
+        <p class="fs-4 text-secondary mt-3">
+            Order premium meals with a modern food delivery experience.
+        </p>
+
+    </div>
+
+</div>
+
+<!-- PIZZA -->
+
+<div class="container-fluid mb-5">
+
+    <h2 class="food-title text-start mb-4">
+        🍕 Pizza
+    </h2>
+
+    <div class="row g-4">
+
+        @foreach (var item in pizza)
+        {
+            <div class="col-lg-3 col-md-6">
+
+                <div class="card food-card h-100">
+
+                    <img src="@item.ImageUrl"
+                         class="food-image" />
+
+                    <div class="food-card-body">
+
+                        <h3 class="food-name">
+                            @item.Name
+                        </h3>
+
+                        <p class="food-description">
+                            @item.Description
+                        </p>
+
+                        <h4 class="food-price">
+                            ₹ @item.Price
+                        </h4>
+
+                        <a asp-controller="Cart"
+                               asp-action="AddToCart"
+                               asp-route-id="@item.Id"
+                               class="btn btn-cart w-100 mt-3">
+
+                            <i class="fa-solid fa-cart-plus"></i>
+                            Add To Cart
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+        }
+
+    </div>
+
+</div>
+
+<!-- PASTA -->
+
+<div class="container-fluid mb-5">
+
+    <h2 class="food-title text-start mb-4">
+        🍝 Pasta
+    </h2>
+
+    <div class="row g-4">
+
+        @foreach (var item in pasta)
+        {
+            <div class="col-lg-3 col-md-6">
+
+                <div class="card food-card h-100">
+
+                    <img src="@item.ImageUrl"
+                         class="food-image" />
+
+                    <div class="food-card-body">
+
+                        <h3 class="food-name">
+                            @item.Name
+                        </h3>
+
+                        <p class="food-description">
+                            @item.Description
+                        </p>
+
+                        <h4 class="food-price">
+                            ₹ @item.Price
+                        </h4>
+
+                        <a asp-controller="Cart"
+                               asp-action="AddToCart"
+                               asp-route-id="@item.Id"
+                               class="btn btn-cart w-100 mt-3">
+
+                            <i class="fa-solid fa-cart-plus"></i>
+                            Add To Cart
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+        }
+
+    </div>
+
+</div>
+
+<!-- BURGERS -->
+
+<div class="container-fluid mb-5">
+
+    <h2 class="food-title text-start mb-4">
+        🍔 Burgers
+    </h2>
+
+    <div class="row g-4">
+
+        @foreach (var item in burgers)
+        {
+            <div class="col-lg-3 col-md-6">
+
+                <div class="card food-card h-100">
+
+                    <img src="@item.ImageUrl"
+                         class="food-image" />
+
+                    <div class="food-card-body">
+
+                        <h3 class="food-name">
+                            @item.Name
+                        </h3>
+
+                        <p class="food-description">
+                            @item.Description
+                        </p>
+
+                        <h4 class="food-price">
+                            ₹ @item.Price
+                        </h4>
+
+                        <a asp-controller="Cart"
+                               asp-action="AddToCart"
+                               asp-route-id="@item.Id"
+                               class="btn btn-cart w-100 mt-3">
+
+                            <i class="fa-solid fa-cart-plus"></i>
+                            Add To Cart
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+        }
+
+    </div>
+
+</div>
+
+<!-- DRINKS -->
+
+<div class="container-fluid mb-5">
+
+    <h2 class="food-title text-start mb-4">
+        🥤 Drinks
+    </h2>
+
+    <div class="row g-4">
+
+        @foreach (var item in drinks)
+        {
+            <div class="col-lg-3 col-md-6">
+
+                <div class="card food-card h-100">
+
+                    <img src="@item.ImageUrl"
+                         class="food-image" />
+
+                    <div class="food-card-body">
+
+                        <h3 class="food-name">
+                            @item.Name
+                        </h3>
+
+                        <p class="food-description">
+                            @item.Description
+                        </p>
+
+                        <h4 class="food-price">
+                            ₹ @item.Price
+                        </h4>
+
+                        <a asp-controller="Cart"
+                               asp-action="AddToCart"
+                               asp-route-id="@item.Id"
+                               class="btn btn-cart w-100 mt-3">
+
+                            <i class="fa-solid fa-cart-plus"></i>
+                            Add To Cart
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+        }
+
+    </div>
+
+</div>

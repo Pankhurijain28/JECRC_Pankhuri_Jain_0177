@@ -1,0 +1,94 @@
+﻿@model List<FoodOrdering.MVC.ViewModels.FoodItemViewModel>
+
+<div class="container mt-4">
+
+    <div class="d-flex justify-content-between align-items-center mb-4">
+
+        <h1 class="food-title m-0">
+            🍔 Food Management
+        </h1>
+
+        <a asp-action="CreateFood"
+               class="btn btn-cart">
+
+            ➕ Add Food
+
+        </a>
+
+    </div>
+
+    <form method="get"
+          class="mb-4">
+
+        <div class="input-group">
+
+            <input type="text"
+                   name="search"
+                   class="form-control"
+                   placeholder="Search food..." />
+
+            <button class="btn btn-dark">
+
+                Search
+
+            </button>
+
+        </div>
+
+    </form>
+
+    <div class="row g-4">
+
+        @foreach (var item in Model)
+        {
+            <div class="col-lg-4">
+
+                <div class="card food-card shadow-lg h-100">
+
+                    <img src="@item.ImageUrl"
+                         class="food-image" />
+
+                    <div class="food-card-body">
+
+                        <h3 class="food-name">
+                            @item.Name
+                        </h3>
+
+                        <p class="food-description">
+                            @item.Description
+                        </p>
+
+                        <h4 class="food-price">
+                            ₹ @item.Price
+                        </h4>
+
+                        <div class="d-flex gap-2 mt-4">
+
+                            <a asp-action="EditFood"
+                                   asp-route-id="@item.Id"
+                                   class="btn btn-warning w-50">
+
+                                Edit
+
+                            </a>
+
+                            <a asp-action="DeleteFood"
+                                   asp-route-id="@item.Id"
+                                   class="btn btn-danger w-50">
+
+                                Delete
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        }
+
+    </div>
+
+</div>

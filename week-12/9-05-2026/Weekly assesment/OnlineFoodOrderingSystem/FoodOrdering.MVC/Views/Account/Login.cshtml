@@ -1,0 +1,61 @@
+﻿@model FoodOrdering.MVC.ViewModels.LoginViewModel
+
+<div class="container mt-5">
+
+    <div class="cart-card mx-auto"
+         style="max-width:500px;">
+
+        <h1 class="text-center mb-4">
+            🔐 Login
+        </h1>
+
+        @if (ViewBag.Error != null)
+        {
+            <div class="alert alert-danger">
+                @ViewBag.Error
+            </div>
+        }
+
+        <form method="post">
+
+            <div class="mb-3">
+
+                <label>Email</label>
+
+                <input asp-for="Email"
+                       class="form-control" />
+
+            </div>
+
+            <div class="mb-3">
+
+                <label>Password</label>
+
+                <input asp-for="Password"
+                       type="password"
+                       class="form-control" />
+
+            </div>
+
+            <button type="submit"
+                    class="btn btn-cart w-100">
+
+                Login
+
+            </button>
+
+        </form>
+
+        <div class="text-center mt-3">
+
+            <a asp-action="Register">
+
+                Create New Account
+
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
