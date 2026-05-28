@@ -1,0 +1,5 @@
+echo node_modules/ >> .gitignore
+echo bin/ >> .gitignore
+echo obj/ >> .gitignore
+echo dist/ >> .gitignore
+echo .angular/ >> .gitignore
